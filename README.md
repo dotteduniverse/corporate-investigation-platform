@@ -1,7 +1,5 @@
 # Intelligent Corporate Investigation Platform
 
-[![CI](https://github.com/yourusername/corporate-investigation-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/corporate-investigation-platform/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
@@ -34,12 +32,12 @@ cd corporate-investigation-platform
 cp .env.example .env
 # Edit .env with your API keys (OpenAI, Weaviate, etc.)
 ┌─────────────────────────────────────────────────────────────┐
-│                    Investigators (UI / API)                  │
+│                    Investigators (UI / API)                 │
 └─────────────────────────────┬───────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                     Hybrid Graph RAG Layer                   │
+│                     Hybrid Graph RAG Layer                  │
 │  ┌──────────────┐  ┌──────────────┐  ┌────────────────────┐ │
 │  │Vector        │  │Graph         │  │Cross‑encoder       │ │
 │  │Retriever     │+ │Traversal     │→ │Reranker            │ │
